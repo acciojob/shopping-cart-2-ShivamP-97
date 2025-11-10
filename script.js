@@ -33,7 +33,7 @@ addButton.addEventListener('click', () => {
     newRow.appendChild(priceCell);
 	
 	grandTotal += price;
-	grandTotalCell.textContent = grandTotal.toFixed(2);
+	grandTotalCell.textContent = grandTotal;
 	
 	nameInput.value = '';
     priceInput.value = '';
